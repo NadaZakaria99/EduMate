@@ -15,14 +15,14 @@ import time
 import os
 
 # Set the Tavily API key
-os.environ["TAVILY_API_KEY"] = "Add Tavily API key"  # Replace with your Tavily API key
-
+# os.environ["TAVILY_API_KEY"] = "Add Tavily API key"  # Replace with your Tavily API key
+os.environ["TAVILY_API_KEY"] = st.secrets["secrets"]["TAVILY_API_KEY"]
 # Initialize Tavily search tool to retrieve top 3 results
 web_search_tool = TavilySearchResults(k=3)
 
 # Set Gemini API key
-GEMINI_API_KEY = "Add Gemini API Key"  # Replace with your Gemini API Key
-
+#GEMINI_API_KEY = "Add Gemini API Key"  # Replace with your Gemini API Key
+os.environ["GEMINI_API_KEY"] = st.secrets["secrets"]["GEMINI_API_KEY"]
 
 # Configure Gemini
 genai.configure(api_key=GEMINI_API_KEY)
