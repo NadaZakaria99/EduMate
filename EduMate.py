@@ -22,7 +22,8 @@ web_search_tool = TavilySearchResults(k=3)
 
 # Set Gemini API key
 #GEMINI_API_KEY = "Add Gemini API Key"  # Replace with your Gemini API Key
-os.environ["GEMINI_API_KEY"] = st.secrets["secrets"]["GEMINI_API_KEY"]
+
+genai.configure(api_key=st.secrets["secrets"]["GEMINI_API_KEY"])  # Use Streamlit secrets
 
 # Configure Gemini
 genai.configure(api_key=GEMINI_API_KEY)
