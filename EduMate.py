@@ -26,7 +26,7 @@ web_search_tool = TavilySearchResults(k=3)
 genai.configure(api_key=st.secrets["secrets"]["GEMINI_API_KEY"])  # Use Streamlit secrets
 
 # Configure Gemini
-genai.configure(api_key=GEMINI_API_KEY)
+genai.configure(api_key=st.secrets["secrets"]["GEMINI_API_KEY"])
 generation_config = {
     "temperature": 0.7,
     "top_p": 0.95,
