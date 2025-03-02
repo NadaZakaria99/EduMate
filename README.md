@@ -37,5 +37,5 @@ Multilingual Support: Expanding to cater to non-English speakers and global lear
 Voice Interaction: Add voice-based queries and responses for a more interactive experience.
 
 # Try it out
-
+- https://edumate-hseff8a2rzsuzojezmfqrk.streamlit.app/
 # demo video
