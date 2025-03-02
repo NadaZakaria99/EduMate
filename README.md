@@ -33,8 +33,8 @@ EduMate leverages cutting-edge AI technologies, including Google Gemini for gene
 `streamlit run app.py`
 
 # What's Next for EduMate
-Multilingual Support: Expanding to cater to non-English speakers and global learners
-Voice Interaction: Add voice-based queries and responses for a more interactive experience.
+- **Multilingual Support:** Expanding to cater to non-English speakers and global learners
+- **Voice Interaction:** Add voice-based queries and responses for a more interactive experience.
 
 # Try it out
 - https://edumate-hseff8a2rzsuzojezmfqrk.streamlit.app/
