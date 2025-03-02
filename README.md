@@ -38,4 +38,3 @@ Voice Interaction: Add voice-based queries and responses for a more interactive 
 
 # Try it out
 - https://edumate-hseff8a2rzsuzojezmfqrk.streamlit.app/
-# demo video
